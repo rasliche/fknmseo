@@ -1,0 +1,22 @@
+{
+  "name": "fknmseo",
+  "version": "1.0.0",
+  "description": "FKNMS Education Portal",
+  "author": "EricR",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0",
+    "@nuxtjs/axios": "^5.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "autoprefixer": "^7.1.6",
+    "tailwindcss": "^0.1.3"
+  }
+}
