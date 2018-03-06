@@ -1,11 +1,17 @@
 <template lang="html">
     <div class="container mx-auto">
+        <app-header></app-header>
         <nuxt />
     </div>
 </template>
 
-<script>
+<script type="text/javascript">
+import Header from '@/components/Header'
+
 export default {
+    components: {
+        AppHeader: Header
+    }
 }
 </script>
 
