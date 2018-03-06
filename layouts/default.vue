@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto app">
       <app-header></app-header>
     <nuxt/>
   </div>
@@ -14,3 +14,9 @@ export default {
     }
 }
 </script>
+
+<style>
+.app {
+    
+}
+</style>
