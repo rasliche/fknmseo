@@ -1,9 +1,11 @@
-<template>
-  <div class="container mx-auto">
-    <nuxt/>
-  </div>
+<template lang="html">
+    <div class="container mx-auto app">
+        <app-header></app-header>
+        <nuxt />
+    </div>
 </template>
 
+<<<<<<< HEAD
 <style>
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -49,5 +51,33 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+=======
+<script type="text/javascript">
+import Header from '@/components/Header'
+
+export default {
+    components: {
+        AppHeader: Header
+    }
+}
+</script>
+
+<style lang="css">
+.app {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 7fr 3fr;
+}
+
+.navigation {
+    align-content: start;
+}
+
+.training-module {
+    grid-column: 2;
+    /* display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 100px auto 100px; */
+>>>>>>> 9dcd73103267073f64f698b5a860a91ed9a72d11
 }
 </style>

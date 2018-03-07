@@ -27,9 +27,3 @@
         </section>
     </div>
 </template>
-
-<script>
-export default {
-    layout: 'training-module'
-}
-</script>
