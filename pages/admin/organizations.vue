@@ -1,6 +1,6 @@
 <template lang="html">
     <div>
-        <h1>admin/organizations</h1>
+        <h3>admin/organizations</h3>
         <ul>
             <li v-for="org in 10">
                 <nuxt-link
