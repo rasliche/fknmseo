@@ -1,9 +1,25 @@
 <template lang="html">
     <div class="navigation">
-        <nuxt-link to="/">Home</nuxt-link>
-        <nuxt-link to="/training/about-blue-star">About Blue Star</nuxt-link>
-        <nuxt-link to="/training/about-the-sanctuary">About The Sanctuary</nuxt-link>
-        <nuxt-link to="/admin">Admin</nuxt-link>
+        <nuxt-link
+            class="text-center bg-grey-lighter rounded hover:bg-grey-light"
+            to="/">
+            Home
+        </nuxt-link>
+        <nuxt-link
+            class="text-center bg-grey-lighter rounded hover:bg-grey-light"
+            to="/training/about-blue-star">
+            About Blue Star
+        </nuxt-link>
+        <nuxt-link
+            class="text-center bg-grey-lighter rounded hover:bg-grey-light"
+            to="/training/about-the-sanctuary">
+            About The Sanctuary
+        </nuxt-link>
+        <nuxt-link
+            class="text-center bg-grey-lighter rounded hover:bg-grey-light"
+            to="/admin">
+            Admin
+        </nuxt-link>
     </div>
 </template>
 
