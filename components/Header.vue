@@ -3,6 +3,7 @@
         <nuxt-link to="/">Home</nuxt-link>
         <nuxt-link to="/training/about-blue-star">About Blue Star</nuxt-link>
         <nuxt-link to="/training/about-the-sanctuary">About The Sanctuary</nuxt-link>
+        <nuxt-link to="/admin">Admin</nuxt-link>
     </div>
 </template>
 
